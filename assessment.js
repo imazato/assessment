@@ -24,8 +24,7 @@
         // 診断結果表示エリアの作成
         removeAllChildren(resultDivided);
         const header = document.createElement('h3');
-,
-    '{userName}のいいところは優しさです。{userName}の優しい雰囲気や立ち振る舞いに多くの人が癒やされています。'        header.innerText = '診断結果';
+        header.innerText = '診断結果';
         resultDivided.appendChild(header);
 
         const paragraph = document.createElement('p');
